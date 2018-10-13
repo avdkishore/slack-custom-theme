@@ -330,7 +330,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
 
-#msg_form #msg_input { background: padding-box #545454; border-color: #424242; border-left: 0; color: #e6e6e6; }
+#msg_form #msg_input { background: padding-box #545454; border-left: 0; color: #e6e6e6; }
 
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
 
@@ -366,7 +366,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #424242; border-color: #363636; color: #e6e6e6; }
 
-#footer, #footer.footer_msg_input { background: #222; box-shadow: inset 1px 0 0 0 #222; }
+#footer, #footer.footer_msg_input { background: #1F4662 ; box-shadow: inset 1px 0 0 0 #222; }
 
 #footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #363636 !important; border-color: #363636 !important; }
 
@@ -1327,7 +1327,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .inline_color_block { border-color: #545454; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #1F4662; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border-bottom: 1px solid #222; }
 
